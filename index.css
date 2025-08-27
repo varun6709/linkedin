@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+}
+
+.top {
+    height: 10dvh;
+    width: 100dvw;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.search {
+    border-radius: 30px;
+    display: flex;
+    height: 40px;
+    border: 2px solid black;
+    width: 400px;
+    overflow: hidden;
+}
+
+.icon {
+    height: 40px;
+    width: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    height: 40px;
+    width: 370px;
+}
+
+.input {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+.icons {
+    height: 40px;
+    width: 50dvw;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+
+.sym {
+    height: 40px;
+    color: black;
+    width: 100px;
+    gap: 4px;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sym:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid red;
+}
+
+.search:hover {
+    transition: all 0.2s ease;
+    border-bottom: 2px solid red;
+}
+
+.container {
+    margin-top: 10dvh;
+    height:90dvh;
+    width: 100dvw;
+    background-color: #f4f2ee;
+    display: flex;
+    overflow: scroll;
+}
+
+.left {
+    height: 90dvh;
+    width: 30dvw;
+    background-color: #f4f2ee;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+     
+}
+
+.profile {
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.logo i {
+    font-size: 40px;
+}
+
+.block {
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.block b {
+    position: relative;
+    left: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.connections {
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.skills {
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.block:hover {
+    transition: all 0.3s ease;
+    border-bottom: 2px solid red;
+    color: white;
+    background-color: grey;
+}
+
+.main {
+    height: 90dvh;
+    width: 40dvw;
+    background-color: #f4f2ee;
+    margin-left: 30dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1 {
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.p {
+    height: 70px;
+    width: 400px;
+    display: flex;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ic {
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border-radius: 20px;
+}
+
+.ic i {
+    font-size: 30px;
+    ;
+}
+
+.text {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    margin-bottom: 5px;
+}
+
+.but {
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 10px;
+}
+
+.but button {
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.but button:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: darkgrey;
+    color: white;
+}
+
+.box b {
+    font-size: 20px;
+}
+
+.box2 {
+    height: 450px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.ics {
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45%;
+}
+
+.ics i {
+    font-size: 30px;
+}
+
+.buts {
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 16px;
+
+}
+
+.buts button {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.buts button:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: darkgrey;
+    color: white;
+}
+
+.head {
+    height: 50px;
+    width: auto;
+    /* background-color:white; */
+    display: flex;
+    position: relative;
+    left: 10px;
+    align-items: center;
+}
+
+.inf {
+    height: 350px;
+    width: 400px;
+    background-color: lightcyan;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.below {
+    height: auto;
+    width: 400px;
+    /* background-color:white; */
+    display: flex;
+}
+
+.be {
+    margin: 10px;
+    /* background-color: tomato; */
+    font-size: 30px;
+}
+
+.be:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: grey;
+}
+
+.bor {
+    margin: 20px;
+     background-color:  #ffffff;
+}
+
+.right {
+    height:  auto;
+    width: 30dvw;
+    background-color:   #f4f2ee;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   
+}
+
+.news {
+    height: 400px;
+    width: 18dvw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.news b {
+    font-size: 20px;
+}
+
+.news p {
+    font-size: 30px;
+}
+
+.space {
+    margin: 10px;
+    background-color: white;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    height: 120px;
+    border-radius: 20px;
+    width: 18dvw;
+    border: 2px solid black;
+}
+
+.more {
+    height: auto;
+    width: 18dvw;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.more p:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+
+.stick{
+    background-color: tomato;
+    position: sticky;
+    top:10px;
+    width: auto;
+}
