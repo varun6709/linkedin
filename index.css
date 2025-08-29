@@ -97,36 +97,38 @@
     left: 0;
     display: flex;
     flex-direction: column;
+    border-right: 2px solid black;
     align-items: end;
      
 }
 
 .profile {
-    height: 200px;
+    height: 250px;
     width: 300px;
     border: 2px solid black;
     border-radius: 20px;
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     position: relative;
     left: 20px;
+    bottom:30px;
 }
 
 .logo i {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .block {
-    margin: 20px;
+    margin: 10px;
     background-color: #ffffff;
 }
 
@@ -136,7 +138,15 @@
     display: block;
     margin-bottom: 10px;
 }
+.blocks b{
+    font-size: 30px;
+    position: relative;
+    left:10px;
+}
 
+.block p{
+    margin:10px;
+}
 .connections {
     height: 50px;
     width: 300px;
@@ -151,11 +161,20 @@
     border-radius: 10px;
 }
 
-.block:hover {
-    transition: all 0.3s ease;
-    border-bottom: 2px solid red;
-    color: white;
-    background-color: grey;
+.div2{
+    height:170px;
+    width:300px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius:20px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
 }
 
 .main {
@@ -169,8 +188,8 @@
 }
 
 .box1 {
-    height: auto;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     border: 2px solid black;
     margin: 10px;
     padding: 5px;
@@ -219,7 +238,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    right: 10px;
+    left: 90px;
 }
 
 .but button {
@@ -241,8 +260,8 @@
 }
 
 .box2 {
-    height: 450px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     border: 2px solid black;
     border-radius: 20px;
 }
@@ -296,8 +315,8 @@
 }
 
 .inf {
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
     background-color: lightcyan;
 }
 
@@ -306,9 +325,16 @@
     width: 100%;
 }
 
+.div1{
+    height:50px;
+    width: 100%;
+    background-color: beige;
+}
+
 .below {
     height: auto;
     width: 400px;
+    justify-content: space-evenly;
     /* background-color:white; */
     display: flex;
 }
@@ -316,7 +342,7 @@
 .be {
     margin: 10px;
     /* background-color: tomato; */
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .be:hover {
@@ -331,7 +357,7 @@
 }
 
 .right {
-    height:  auto;
+    height:  400dvh;
     width: 30dvw;
     background-color:   #f4f2ee;
     display: flex;
@@ -351,13 +377,13 @@
     border-radius: 20px;
 }
 
-.news b {
+/* .news b {
     font-size: 20px;
 }
 
 .news p {
     font-size: 30px;
-}
+} */
 
 .space {
     margin: 10px;
@@ -376,13 +402,30 @@
     border: 2px solid black;
 }
 
+.ad button{
+    height:30px;
+    width:70%;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.ad button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+
 .more {
     height: auto;
     width: 18dvw;
-    border: 2px solid black;
+    position: relative;
+    left:10px;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+
     border-radius: 10px;
 }
 
@@ -393,7 +436,7 @@
 }
 
 .stick{
-    background-color: tomato;
+    /* background-color: tomato; */
     position: sticky;
     top:10px;
     width: auto;
